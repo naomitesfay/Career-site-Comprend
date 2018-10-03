@@ -1,8 +1,9 @@
 import React from "react"
-// import JobListItems from "./job-list-items"
+import JobItem from "../components/jobitem.js"
 
 
-export default class Job extends React.Component {
+
+export default class JobOpeningsList extends React.Component {
 
   state = {
     allJobListings: []
@@ -21,10 +22,8 @@ export default class Job extends React.Component {
   render() {
     if (this.state.allJobListings.length > 0) {
       return (
-        <div className= "jobContainer">
-        <p>Job title {this.state.allJobListings[0].title}</p>
-        <p>Department {this.state.allJobListings[0].department}</p>
-        <p>City {this.state.allJobListings[0].department}</p>
+        <div className= "">
+          <JobItem title = {this.state.allJobListings[0].title} department = {this.state.allJobListings[0].department} city = {this.state.allJobListings[0].department}/>
         </div>
       )
     } else {
