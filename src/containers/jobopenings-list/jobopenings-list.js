@@ -1,6 +1,6 @@
 import React from "react"
-import JobItem from "../components/jobitem.js"
-
+import JobItem from "../../components/jobitem/jobitem.js"
+import  "./jobopenings-list.css"
 
 
 export default class JobOpeningsList extends React.Component {
@@ -22,7 +22,7 @@ export default class JobOpeningsList extends React.Component {
   render() {
     if (this.state.allJobListings.length > 0) {
       return (
-        <div className= "">
+        <div className= "jobOpeningsListItem">
           {this.state.allJobListings.map((item) => {
             return (
               <JobItem title={item.title}
