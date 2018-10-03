@@ -24,10 +24,12 @@ export default class JobDetailsInfo extends React.Component {
       return (
         <div className= "">
           <h1>{this.state.allJobListings.title}</h1>
-          <p>Brödtext här!</p>
+          <p>{this.state.allJobListings.intro}</p>
           <img src="" alt="image here!" />
           {/* <Button text="text-as-props" /> We need to make this component! */}
-          <p>{this.state.allJobListings.body}</p>
+          <p>{this.state.allJobListings.workday}</p>
+          <p>{this.state.allJobListings.aboutYou}</p>
+          <p>{this.state.allJobListings.match}</p>
           <p>Colleagues components goes here! :)</p> {/* We could make this component! */}
         </div>
         )
