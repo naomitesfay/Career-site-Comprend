@@ -23,12 +23,18 @@ export default class JobOpeningsList extends React.Component {
     if (this.state.allJobListings.length > 0) {
       return (
         <div className= "">
-          <JobItem title = {this.state.allJobListings[0].title} department = {this.state.allJobListings[0].department} city = {this.state.allJobListings[0].department}/>
+          {this.state.allJobListings.map((item) => {
+            return (
+              <JobItem title={item.title}
+              department={item.department}
+              city={item.department}
+              />
+            )
+          })}
         </div>
-      )
-    } else {
+        )
+      } else {
       return <div>Loading loading loading forever...</div>
     }
   }
-
 }
