@@ -1,6 +1,8 @@
 import React from "react"
 import ReactDOM from "react-dom"
+
 import JobOpeningsPage from "./pages/jobopenings-page/jobopenings-page"
+import JobDetailsPage from "./pages/jobdetails-page"
 import "./index.css"
 import JobItem from "./components/jobitem/jobitem"
 
