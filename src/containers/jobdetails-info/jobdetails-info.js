@@ -1,11 +1,13 @@
 import React from "react"
 import Button from "../../components/button/button"
+import Colleague from "../../components/colleague/colleague"
 import "./jobdetails-info.css"
 
 export default class JobDetailsInfo extends React.Component {
 
   state = {
-    allJobListings: {}
+    allJobListings: {},
+    allColleagues: {}
   }
 
   componentDidMount() {
@@ -17,10 +19,17 @@ export default class JobDetailsInfo extends React.Component {
         allJobListings: json
       })
     })
+    fetch("http://hellotechnigo.comprendwebsites.net/api/users").then((response) => {
+      return response.json()
+    }).then((json) => {
+      this.setState({
+        allColleagues: json
+      })
+    })
   }
 
   render() {
-    if (Object.keys(this.state.allJobListings).length > 0) {
+    if (Object.keys(this.state.allJobListings).length > 0 && Object.keys(this.state.allColleagues).length > 0) {
       return (
         <div className="">
           <h1>{this.state.allJobListings.title}</h1>
@@ -44,7 +53,8 @@ export default class JobDetailsInfo extends React.Component {
             <p className="column-text">{this.state.allJobListings.aboutYou}</p>
           </div>
           <p>{this.state.allJobListings.match}</p>
-          <p>Colleagues components goes here! :)</p> {/* We could make this component! */}
+          <Colleague source={this.state.allColleagues[0].pictureUrl}
+            name={this.state.allColleagues[0].name} />
         </div>
         )
       } else {
