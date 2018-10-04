@@ -1,19 +1,26 @@
-/* .jobOpeningsListCategory{
+.jobOpeningsListCategory ul{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
-  color: peachpuff;
-  background-color: firebrick;
+}
+
+
+
+li{
+  display: flex;
+  justify-content: center;
+  width: 33.33%;
+}
+
+/* .city li{
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 180px;
 } */
-
-.jobOpeningsListCategory >ul{
+.title{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  list-style: none;
-  color: peachpuff;
-  background-color: firebrick;
-
+  justify-content: flex-start;
+  padding-left: 10px;
 
 }

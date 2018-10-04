@@ -1,10 +1,10 @@
 body {
-  margin: 0;
+  margin: 0 10%;
   padding: 0;
   font-family: sans-serif;
 }
 
-.jobContainer{
+/* .jobContainer{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -15,4 +15,4 @@ body {
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
-}
+} */

@@ -11,3 +11,8 @@
   border: 1px solid firebrick;
 
 } */
+.jobOpeningsListItem {
+  border-top: black 2px solid;
+  border-right: black 2px solid;
+  border-left: black 2px solid;
+}

@@ -23,11 +23,12 @@ export default class JobOpeningsList extends React.Component {
     if (this.state.allJobListings.length > 0) {
       return (
         <div className= "jobOpeningsListItem">
+
           {this.state.allJobListings.map((item) => {
             return (
               <JobItem title={item.title}
               department={item.department}
-              city={item.department}
+              city={item.city}
               />
             )
           })}

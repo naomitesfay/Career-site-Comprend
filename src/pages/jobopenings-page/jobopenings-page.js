@@ -8,9 +8,10 @@ class JobOpeningsPage extends React.Component {
     return (
       <div className="jobOpeningsListCategory">
         <ul>
-          <li>Title</li>
-          <li>Department</li>
-          <li>City</li>
+
+          <div className="title"><li>Title</li></div>
+          <div className="department"><li>Department</li></div>
+          <div className="city"><li>City</li></div>
         </ul>
 
         <div>
