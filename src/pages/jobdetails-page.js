@@ -1,5 +1,5 @@
 import React from "react"
-import JobDetailsInfo from "../containers/jobdetails-info"
+import JobDetailsInfo from "../containers/jobdetails-info/jobdetails-info"
 
 class JobDetailsPage extends React.Component {
 
