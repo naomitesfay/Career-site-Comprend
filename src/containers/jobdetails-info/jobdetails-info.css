@@ -24,3 +24,9 @@ img {
 .column-text {
   width: 50%;
 }
+
+.colleague-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

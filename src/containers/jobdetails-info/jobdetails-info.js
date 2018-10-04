@@ -53,8 +53,14 @@ export default class JobDetailsInfo extends React.Component {
             <p className="column-text">{this.state.allJobListings.aboutYou}</p>
           </div>
           <p>{this.state.allJobListings.match}</p>
-          <Colleague source={this.state.allColleagues[0].pictureUrl}
-            name={this.state.allColleagues[0].name} />
+          <div className="colleague-group">
+            <Colleague source={this.state.allColleagues[0].pictureUrl}
+              name={this.state.allColleagues[0].name} />
+            <Colleague source={this.state.allColleagues[1].pictureUrl}
+              name={this.state.allColleagues[1].name} />
+            <Colleague source={this.state.allColleagues[2].pictureUrl}
+              name={this.state.allColleagues[2].name} />
+          </div>
         </div>
         )
       } else {
