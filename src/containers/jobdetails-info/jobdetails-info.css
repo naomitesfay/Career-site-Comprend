@@ -1,0 +1,32 @@
+.top-image-box {
+  width: 100%;
+}
+
+.body-image-box {
+  overflow: hidden;
+  padding: 10px;
+  width: 50%;
+}
+
+.button-group {
+  text-align: center;
+}
+
+img {
+  width: 100%;
+}
+
+.two-column {
+  display: flex;
+  flex-direction: row;
+}
+
+.column-text {
+  width: 50%;
+}
+
+.colleague-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

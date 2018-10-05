@@ -2,7 +2,6 @@ import React from "react"
 import  "./jobitem.css"
 // import JobListItems from "./job-list-items"
 
-
 export default class JobItem extends React.Component {
 
 
