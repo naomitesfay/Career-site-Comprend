@@ -24,30 +24,14 @@ export default class JobOpeningsList extends React.Component {
     if (this.state.allJobListings.length > 0) {
       return (
         <div className="jobOpeningsList">
-        <ul>
+        <table>
+        <tr>
+          <th>Title</th>
+          <th>Department</th>
+          <th>City</th>
+        </tr>
+        </table>
 
-          <div className="title"><li>Title</li></div>
-          <div className="department"><li>Department</li></div>
-          <div className="city"><li>City</li></div>
-        </ul>
-
-//         <table>
-//   <tr>
-//     <th>Title</th>
-//     <th>Department</th>
-//     <th>City</th>
-//   </tr>
-//   <tr>
-//     <td>Jill</td>
-//     <td>Smith</td>
-//     <td>50</td>
-//   </tr>
-//   <tr>
-//     <td>Eve</td>
-//     <td>Jackson</td>
-//     <td>94</td>
-//   </tr>
-// </table>
           <div className= "jobOpeningsListItem">
 
             {this.state.allJobListings.map((item) => {

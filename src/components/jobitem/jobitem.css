@@ -1,23 +1,13 @@
 .jobContainer {
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  align-items: center;
-  list-style: none;
   border-bottom: 2px solid black;
   height: 80px;
+  text-decoration: none;
 }
 
-
-.jobContainer > div{
-  display: flex;
-  justify-content: center;
-  width: 33.33%;
+.jobContainer{
+  text-decoration: none;
 }
 
-.jobContainer > .title{
-  display: flex;
-  justify-content: flex-start;
-  padding-left: 10px;
-
+table Link{
+  text-decoration: none;
 }
