@@ -9,8 +9,9 @@ export default class Footer extends React.Component {
 
       return (
         <footer>
-          <div>
-            <img src="./images/logo.jpg"/>
+
+          <div className="footer-logo">
+            <img src="/images/logo.png"/>
           </div>
           <div className="footer-navbar">
             <ul>
@@ -21,14 +22,14 @@ export default class Footer extends React.Component {
               <li>Subscribe to our newsletter</li>
             </ul>
             <div className="socialmedia-icons">
-              <img src="images/facebook.png" />
-              <img src="images/twitter.png" />
-              <img src="images/instagram.png" />
-              <img src="images/linkedin.png" />
+              <img src="/images/facebook.png" />
+              <img src="/images/twitter.png" />
+              <img src="/images/instagram.png" />
+              <img src="/images/linkedin.png" />
             </div>
           </div>
             <p>Comprend is part H&H Group</p>
-
+           
         </footer>
       )
     }

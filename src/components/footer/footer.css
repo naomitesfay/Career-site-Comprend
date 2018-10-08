@@ -5,6 +5,11 @@ footer {
   background-color: #2F323B;
 }
 
+.footer-logo img {
+  height: 31px;
+  width: auto;
+}
+
 .footer-navbar ul {
   display: flex;
   flex-direction: row;
@@ -12,19 +17,16 @@ footer {
   justify-content: space-between;
 }
 
-
 .footer-navbar {
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
 }
 
-
 .socialmedia-icons {
-display: flex;
-flex-direction: row;
-
+  display: flex;
+  flex-direction: row;
 }
 .socialmedia-icons img {
   height: 15px;
