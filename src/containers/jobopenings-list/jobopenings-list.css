@@ -6,20 +6,20 @@
 
 }
 
-.jobOpeningsList> ul{
+.jobOpeningsList> ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   list-style: none;
 }
 
-li{
+.jobOpeningsList li {
   display: flex;
   justify-content: center;
   width: 33.33%;
 }
 
-li{
+.jobOpeningsList li {
   display: flex;
   justify-content: flex-start;
   padding-right: 180px;
