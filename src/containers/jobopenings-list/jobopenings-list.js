@@ -1,4 +1,5 @@
 import React from "react"
+import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 import JobItem from "../../components/jobitem/jobitem.js"
 import  "./jobopenings-list.css"
 
@@ -51,10 +52,14 @@ export default class JobOpeningsList extends React.Component {
 
             {this.state.allJobListings.map((item) => {
               return (
-                <JobItem title={item.title}
-                department={item.department}
-                city={item.city}
-                />
+                <Link to="/jobs/{item.id}">
+                  <JobItem
+                  id={item.id}
+                  title={item.title}
+                  department={item.department}
+                  city={item.city}
+                  />
+                </Link>
               )
             })}
           </div>
