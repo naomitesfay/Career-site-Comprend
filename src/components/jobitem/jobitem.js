@@ -14,9 +14,13 @@ export default class JobItem extends React.Component {
       return (
         <div className= "jobContainer">
           <Link to={`/jobs/${this.props.id}`}>
-            <div className="title"><p>{this.props.title}</p></div>
-            <div><p>{this.props.department}</p></div>
-            <div><p>{this.props.city}</p></div>
+            <table>
+              <tr>
+                <td>{this.props.title}</td>
+                <td>{this.props.department}</td>
+                <td>{this.props.city}</td>
+            </tr>
+          </table>
           </Link>
         </div>
       )

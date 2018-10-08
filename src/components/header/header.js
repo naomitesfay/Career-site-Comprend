@@ -9,8 +9,8 @@ export default class Header extends React.Component {
 
       return (
         <header>
-          <div>
-            <img src="./images/logo.jpg"/>
+          <div className="logo">
+            <img src="/images/logo.png" />
           </div>
           <div className="header-navbar">
             <ul>

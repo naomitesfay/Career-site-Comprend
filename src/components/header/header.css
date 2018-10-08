@@ -1,14 +1,30 @@
 header {
   display: flex;
+  align-items: center;
   flex-direction: row;
   justify-content: space-between;
   background-color: #2F323B;
+  padding-bottom: 0;
+  height: 142px;
 }
 
 .header-navbar ul {
   display: flex;
-  flex-direction: row;
+  justify-content: flex-end;
   list-style-type: none;
   justify-content: space-between;
-  align-items: center;
+  color: #F9F5F2;
+}
+
+.header-navbar li{
+  padding: 20px;
+}
+
+.logo{
+  padding-left: 5%;
+}
+
+.logo img{
+  height: 31px;
+  width: auto;
 }
