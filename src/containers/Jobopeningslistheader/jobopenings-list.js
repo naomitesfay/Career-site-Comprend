@@ -27,6 +27,7 @@ export default class JobOpeningsHeader extends React.Component {
           {this.state.allJobListings.map((item) => {
             return (
               <JobItem title={item.title}
+                id={item.id}
               department={item.department}
               city={item.city}
               />
