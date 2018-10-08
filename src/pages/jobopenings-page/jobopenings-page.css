@@ -12,3 +12,17 @@
 .jobOpeningsList{
   margin: 0 10%;
 }
+.background{
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom left, #FAD961, #F76B1C);
+  opacity: 50%;
+}
+
+.Header{
+  background-color: #2F323B;
+}
+
+.jobOpeningsList{
+  margin: 0 10%;
+}
