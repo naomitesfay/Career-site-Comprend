@@ -1,18 +1,26 @@
-/* body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-}
-
-.jobContainer{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  border: 1px solid firebrick;
-
-} */
 .jobOpeningsListItem {
   border-top: black 2px solid;
   border-right: black 2px solid;
   border-left: black 2px solid;
+  width: 80%;
+
+}
+
+.jobOpeningsList> ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style: none;
+}
+
+li{
+  display: flex;
+  justify-content: center;
+  width: 33.33%;
+}
+
+li{
+  display: flex;
+  justify-content: flex-start;
+  padding-right: 180px;
 }
