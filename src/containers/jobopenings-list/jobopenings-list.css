@@ -5,11 +5,7 @@
   width: 80%;
 }
 
-<<<<<<< HEAD
-.jobOpeningsList> ul {
-=======
 .jobOpeningsList tr{
->>>>>>> style
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -17,21 +13,6 @@
   margin-top: 0;
 }
 
-<<<<<<< HEAD
-.jobOpeningsList li {
-  display: flex;
-  justify-content: center;
-  width: 33.33%;
-}
-
-.jobOpeningsList li {
-  display: flex;
-  justify-content: flex-start;
-  padding-right: 180px;
-=======
-
-
 table{
   width: 80%;
->>>>>>> style
 }
