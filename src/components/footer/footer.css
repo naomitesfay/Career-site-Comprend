@@ -1,0 +1,32 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-navbar ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+
+.footer-navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: center;
+}
+
+
+.socialmedia-icons {
+display: flex;
+flex-direction: row;
+
+}
+.socialmedia-icons img {
+  height: 15px;
+  width: 15px;
+  margin: 0 10px;
+}

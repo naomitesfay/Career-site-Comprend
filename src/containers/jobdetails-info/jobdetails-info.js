@@ -2,6 +2,7 @@ import React from "react"
 import Button from "../../components/button/button"
 import Colleague from "../../components/colleague/colleague"
 import Header from "../../components/header/header"
+import Footer from "../../components/footer/footer"
 import "./jobdetails-info.css"
 
 export default class JobDetailsInfo extends React.Component {
@@ -65,7 +66,8 @@ export default class JobDetailsInfo extends React.Component {
                 name={this.state.allColleagues[2].name} />
             </div>
           </div>
-        </div>  
+          <Footer/>
+        </div>
         )
       } else {
       return (
