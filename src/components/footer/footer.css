@@ -2,6 +2,7 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-color: #2F323B;
 }
 
 .footer-navbar ul {
