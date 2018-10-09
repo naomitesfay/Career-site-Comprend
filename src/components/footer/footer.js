@@ -28,7 +28,7 @@ export default class Footer extends React.Component {
             <img src="/images/linkedin.png" />
           </div>
         </div>
-          <p>Comprend is part H&H Group</p>
+        <p>Comprend is part H&H Group</p>
 
       </footer>
     )

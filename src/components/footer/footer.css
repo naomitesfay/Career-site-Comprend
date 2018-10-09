@@ -3,6 +3,14 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   background-color: #2F323B;
+  height: 142px;
+  font-size: 14px;
+  color: #F9F5F2;
+  padding-left: 5%;
+}
+
+.footer-logo {
+
 }
 
 .footer-logo img {
@@ -14,7 +22,8 @@ footer {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 70%;
 }
 
 .footer-navbar {
@@ -23,7 +32,6 @@ footer {
   justify-content: space-between;
   align-items: center;
   padding: 0;
-
 }
 
 .socialmedia-icons {
