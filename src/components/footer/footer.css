@@ -3,6 +3,18 @@ footer {
   flex-direction: column;
   justify-content: space-between;
   background-color: #2F323B;
+  font-size: 14px;
+  color: #F9F5F2;
+  padding-left: 5%;
+  padding-top: 40px;
+}
+
+footer p {
+  font-weight: lighter;
+}
+
+.footer-logo {
+  padding-bottom: 20px;
 }
 
 .footer-logo img {
@@ -14,7 +26,9 @@ footer {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 70%;
+  padding: 0;
 }
 
 .footer-navbar {
@@ -22,8 +36,11 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 0;
+}
 
+.footer-navbar a {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 .socialmedia-icons {

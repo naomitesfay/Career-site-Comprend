@@ -15,20 +15,38 @@ export default class Footer extends React.Component {
         </div>
         <div className="footer-navbar">
           <ul>
-            <li>&#169; 2014-2018 Comprend</li>
-            <li>Privacy Notice</li>
-            <li>Cookie Policy</li>
-            <li>Terms of Use</li>
-            <li>Subscribe to our newsletter</li>
+            <a href="">
+              <li>&#169; 2014-2018 Comprend</li>
+            </a>
+            <a href="">
+              <li>Privacy Notice</li>
+            </a>
+            <a href="">
+              <li>Cookie Policy</li>
+            </a>
+            <a href="">
+              <li>Terms of Use</li>
+            </a>
+            <a href="">
+              <li>Subscribe to our newsletter</li>
+            </a>
           </ul>
           <div className="socialmedia-icons">
-            <img src="/images/facebook.png" />
-            <img src="/images/twitter.png" />
-            <img src="/images/instagram.png" />
-            <img src="/images/linkedin.png" />
+            <a href="https://www.facebook.com/comprendcom/">
+              <img src="/images/facebook.png" />
+            </a>
+            <a href="https://twitter.com/ComprendCom">
+              <img src="/images/twitter.png" />
+            </a>
+            <a href="https://www.instagram.com/comprendlife/">
+              <img src="/images/instagram.png" />
+            </a>
+            <a href="https://www.linkedin.com/company/comprend/">
+              <img src="/images/linkedin.png" />
+            </a>
           </div>
         </div>
-          <p>Comprend is part H&H Group</p>
+        <p>Comprend is part H&H Group</p>
 
       </footer>
     )
