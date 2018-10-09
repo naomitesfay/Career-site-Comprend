@@ -1,18 +1,26 @@
-.jobOpeningsListItem {
-  border-top: black 2px solid;
-  border-right: black 2px solid;
-  border-left: black 2px solid;
-  width: 80%;
+table{
+  width: 100%;
+  color: #2F323B;;
+  padding-left: 60px;
+  table-layout: fixed;
 }
 
-.jobOpeningsList tr{
+.jobOpeningsList .jobopeningListItem tr{
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  list-style: none;
-  margin-top: 0;
 }
 
-table{
-  width: 80%;
+.jobOpeningsListItem {
+  border-top: #979797 2px solid;
+  border-right: #979797 2px solid;
+  border-left: #979797 2px solid;
+  background: #F9F5F2;
+  margin-bottom: 10%;
+}
+
+a:-webkit-any-link{
+  text-decoration: none;
+  color: #2F323B;
+  padding-left: 40px;
 }

@@ -7,8 +7,12 @@ class JobOpeningsPage extends React.Component {
   render() {
     return (
       <div className="background">
+      <div className="dune">
+      <img src="/images/sanddune.svg" />
+      </div>
         <JobOpeningsList />
       </div>
+
     )
   }
 

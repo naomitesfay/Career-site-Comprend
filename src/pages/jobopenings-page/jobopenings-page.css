@@ -5,10 +5,22 @@
   opacity: 50%;
 }
 
+.dune{
+  bottom: 0;
+  width: 100%;
+  position: absolute;
+  opacity: 0.6;
+
+
+}
 .Header{
   background-color: #2F323B;
 }
 
 .jobOpeningsList{
   margin: 0 10%;
+}
+
+table> background-color{
+  opacity: 0.1;
 }

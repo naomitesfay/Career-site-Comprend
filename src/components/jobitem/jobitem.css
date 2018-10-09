@@ -1,13 +1,8 @@
 .jobContainer {
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #979797;
   height: 80px;
-  text-decoration: none;
 }
 
-.jobContainer{
-  text-decoration: none;
-}
-
-table Link{
-  text-decoration: none;
+tr{
+   margin-right: 40%;
 }
