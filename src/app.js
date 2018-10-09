@@ -6,6 +6,7 @@ import Header from "./components/header/header"
 import JobOpeningsPage from "./pages/jobopenings-page/jobopenings-page"
 import JobDetailsPage from "./pages/jobdetails-page"
 import Footer from "./components/footer/footer"
+import CareerPage from "./pages/career-page/career-page"
 
 class App extends React.Component {
   render() {
@@ -15,6 +16,7 @@ class App extends React.Component {
         <Header />
          <Route path="/jobs" exact="true" component={JobOpeningsPage} />
          <Route path="/jobs/:id" component={JobDetailsPage} />
+         <Route path="/" component={CareerPage} />
          <Footer />
         </div>
       </Router>
