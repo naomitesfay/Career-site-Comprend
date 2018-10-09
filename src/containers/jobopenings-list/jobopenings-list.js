@@ -3,25 +3,45 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom"
 import JobItem from "../../components/jobitem/jobitem.js"
 import  "./jobopenings-list.css"
 
-
 export default class JobOpeningsList extends React.Component {
 
   state = {
-    allJobListings: []
+    allJobListings: [],
+    allDepartments: []
   }
 
   componentDidMount() {
     fetch("http://hellotechnigo.comprendwebsites.net/api/jobs").then((response) => {
       return response.json()
     }).then((json) => {
+      this.allJobListings = json
+      this.fetchDepartments()
+    })
+  }
+
+  fetchDepartments = () => {
+    fetch("http://hellotechnigo.comprendwebsites.net/api/departments").then((response) => {
+      return response.json()
+    }).then((json) => {
+      this.allDepartments = json
+      let depts = {}
+      this.allDepartments.forEach((item) =>{
+        depts[item.id] = item.name
+      })
+      const updatedList = this.allJobListings.map((job) => {
+        job.departmentName = depts[job.department]
+        return job
+      })
       this.setState({
-        allJobListings: json
+        allJobListings: this.allJobListings,
+        allDepartments: this.allDepartments,
+        updatedJobListings: updatedList
       })
     })
   }
 
   render() {
-    if (this.state.allJobListings.length > 0) {
+    if (this.state.allDepartments.length > 0) {
       return (
         <div className="jobOpeningsList">
         <table>
@@ -34,13 +54,13 @@ export default class JobOpeningsList extends React.Component {
 
           <div className= "jobOpeningsListItem">
 
-            {this.state.allJobListings.map((item) => {
+            {this.state.updatedJobListings.map((item) => {
               return (
                 <Link to="/jobs/{item.id}">
                   <JobItem
                   id={item.id}
                   title={item.title}
-                  department={item.department}
+                  department={item.departmentName}
                   city={item.city}
                   />
                 </Link>
