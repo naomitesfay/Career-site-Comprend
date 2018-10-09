@@ -6,6 +6,7 @@ header {
   background-color: #2F323B;
   padding-bottom: 0;
   height: 142px;
+  z-index: 5;
 }
 
 .header-navbar ul {

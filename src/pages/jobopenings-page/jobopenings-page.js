@@ -6,12 +6,12 @@ class JobOpeningsPage extends React.Component {
 
   render() {
     return (
-      <div className="background">
-      <div className="dune">
-      <img src="/images/sanddune.svg" />
-      </div>
-        <JobOpeningsList />
-      </div>
+     <div className="body">
+      <div className="starwarsJobs"><img src="/images/jobopenings-image.svg" /></div>
+       <div className="TableofPositions">
+         <JobOpeningsList />
+       </div>
+     </div>
 
     )
   }

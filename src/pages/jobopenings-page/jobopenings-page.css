@@ -1,26 +1,31 @@
-.background{
+.body{
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to bottom left, #FAD961, #F76B1C);
-  opacity: 50%;
+  background-image: url("/images/sanddune.svg"), linear-gradient(to bottom left, #FAD961, #F76B1C);
+  background-repeat: no-repeat;
+  z-index: 0;
+  background-size: cover;
 }
 
 .dune{
-  bottom: 0;
   width: 100%;
-  position: absolute;
   opacity: 0.6;
-
-
+  height: 100%;
+  z-index: 1;
+  /* overflow: hidden; */
+  /* position: relative; */
 }
-.Header{
-  background-color: #2F323B;
-}
 
-.jobOpeningsList{
+.TableofPositions{
+  z-index: 2;
   margin: 0 10%;
+  padding: 50px;
+  width: 80%;
+  max-height: 600px;
+
 }
 
-table> background-color{
-  opacity: 0.1;
+.starwarsJobs{
+  width: 25%;
+  padding: 10% 15% 10% 15%;
 }
