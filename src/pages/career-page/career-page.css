@@ -1,0 +1,16 @@
+.hero-image {
+position: relative;
+
+}
+
+.hero-text {
+position: absolute;
+top: 40%;
+left: 10%;
+color: white;
+}
+
+.intro-text {
+display: flex;
+flex-direction: row;
+}
