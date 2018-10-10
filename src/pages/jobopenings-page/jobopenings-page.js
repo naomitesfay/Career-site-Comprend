@@ -6,9 +6,9 @@ class JobOpeningsPage extends React.Component {
 
   render() {
     return (
-     <div className="body">
-      <div className="starwarsJobs"><img src="/images/jobopenings-image.svg" /></div>
-       <div className="TableofPositions">
+     <div className="jobOpPageContainer">
+      <div className="starWarsJobs"><img src="/images/jobopenings-image.svg" /></div>
+       <div className="tableofPositions">
          <JobOpeningsList />
        </div>
      </div>

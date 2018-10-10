@@ -56,7 +56,7 @@ export default class JobOpeningsList extends React.Component {
 
             {this.state.updatedJobListings.map((item) => {
               return (
-                <Link to="/jobs/{item.id}">
+                <Link to={"/jobs/" + item.id}>
                   <JobItem
                   id={item.id}
                   title={item.title}
