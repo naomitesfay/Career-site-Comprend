@@ -7,22 +7,12 @@
   background-size: cover;
 }
 
-.dune{
-  width: 100%;
-  opacity: 0.6;
-  height: 100%;
-  z-index: 1;
-  /* overflow: hidden; */
-  /* position: relative; */
-}
-
 .TableofPositions{
   z-index: 2;
   margin: 0 10%;
   padding: 50px;
   width: 80%;
   max-height: 600px;
-
 }
 
 .starwarsJobs{
