@@ -15,4 +15,5 @@
 a:-webkit-any-link{
   text-decoration: none;
   color: #2F323B;
+  marggin: 20px;
 }

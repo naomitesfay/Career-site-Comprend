@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="1456px" height="839px" viewBox="0 0 1456 839" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1440px" height="1164px" viewBox="0 0 1440 1164" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
-    <title>Path 2sanddune</title>
+    <title>Group 8</title>
     <desc>Created with Sketch.</desc>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.495233445">
-        <path d="M0.136313715,141.784355 C29.7510073,155.365804 52.0770123,165.05469 67.1143287,170.851013 C229.851759,233.580212 364.040109,242.977646 504.735817,214.323518 C645.431525,185.66939 774.738294,91.7310524 883,48.7462204 C991.261706,5.76138832 1169.29343,-8.72641288 1252.82429,5.76138832 C1308.51153,15.4199225 1375.96558,29.7481998 1455.18646,48.7462204 L1455.18646,838.468606 L0.136313715,838.468606 L0.136313715,141.784355 Z" id="Path-2" fill="#D29A72" fill-rule="nonzero"></path>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-8" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#50E3C2" opacity="0.01" x="0" y="0" width="1440" height="1161"></rect>
+            <path d="M-4.54747351e-13,494.847819 C206.864062,559.206588 359.312806,589.348975 457.346232,585.274981 C604.396371,579.16399 772.519333,455.91172 898.76839,419.847819 C1025.01745,383.783919 1231.7897,391.833293 1329,405.840556 C1393.80687,415.178732 1430.80687,422.155148 1440,426.769805 L1440,1163.84782 L-4.54747351e-13,1163.84782 L-4.54747351e-13,494.847819 Z" id="Path-2" fill="#D29A72" opacity="0.452729725"></path>
+            <circle id="Oval" fill="#FFFFFF" cx="967.5" cy="89.5" r="45.5"></circle>
+            <circle id="Oval-Copy" fill="#FFFABB" cx="1142.5" cy="243.5" r="45.5"></circle>
+        </g>
     </g>
 </svg>
