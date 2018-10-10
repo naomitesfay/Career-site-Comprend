@@ -11,10 +11,12 @@ header {
 
 .header-navbar ul {
   display: flex;
-  justify-content: flex-end;
-  list-style-type: none;
+  flex-flow: row wrap;
   justify-content: space-between;
+  list-style-type: none;
   color: #F9F5F2;
+  width: auto;
+  padding: 0;
 }
 
 .header-navbar li{
@@ -28,4 +30,15 @@ header {
 .logo img{
   height: 31px;
   width: auto;
+}
+
+@media (max-width: 600px) {
+  .header-navbar ul {
+    flex-flow: column nowrap;
+  }
+
+  .header-navbar li{
+    padding: 0px;
+  }
+
 }

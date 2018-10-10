@@ -6,6 +6,7 @@ import Header from "./components/header/header"
 import JobOpeningsPage from "./pages/jobopenings-page/jobopenings-page"
 import JobDetailsPage from "./pages/jobdetails-page/jobdetails-page"
 import Footer from "./components/footer/footer"
+import CareerPage from "./pages/career-page/career-page"
 
 class App extends React.Component {
   render() {
@@ -13,8 +14,8 @@ class App extends React.Component {
       <Router>
         <div>
         <Header />
-         <Route path="/" exact="true" component={JobOpeningsPage} />
-         <Route path="/jobs" exact="true" component={JobOpeningsPage} />
+         <Route path="/" exact component={CareerPage} />
+         <Route path="/jobs" exact component={JobOpeningsPage} />
          <Route path="/jobs/:id" component={JobDetailsPage} />
          <Footer />
         </div>

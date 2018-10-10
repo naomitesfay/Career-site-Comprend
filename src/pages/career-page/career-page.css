@@ -1,0 +1,65 @@
+body {
+margin: 0;
+
+}
+.career-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-image {
+position: relative;
+
+
+}
+
+.hero-text {
+position: absolute;
+top: 20%;
+left: 10%;
+color: white;
+font-size: 200%;
+}
+
+.intro-container {
+display: flex;
+flex-direction: row;
+width: 100%;
+}
+
+
+.job-opening-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.intro-text {
+  padding: 0 40px;
+}
+
+.job-opening-container button {
+  position:inherit;
+  top: 50%;
+  left: 50%;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  .intro-container {
+  flex-direction: column;
+  text-align: center;
+  }
+
+  .intro-text {
+    padding: 0;
+  }
+}

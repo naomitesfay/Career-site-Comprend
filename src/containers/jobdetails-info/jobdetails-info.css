@@ -51,3 +51,22 @@ h3{
   justify-content: space-around;
   padding: 100px 0px;
 }
+
+@media (max-width: 600px) {
+  .colleague-group {
+    flex-direction: column;
+  }
+
+  .two-column {
+    flex-direction: column;
+  }
+
+  .body-image-box {
+    width: 100%;
+  }
+
+  .column-text {
+    padding-left: 0px;
+    width: 100%;
+  }
+}

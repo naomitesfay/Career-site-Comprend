@@ -87,13 +87,13 @@ export default class JobOpeningsList extends React.Component {
             </select>
           </div>
 
-        <table>
-        <tr>
-          <th>Title</th>
-          <th>Department</th>
-          <th>City</th>
-        </tr>
-        </table>
+          <table>
+          <tr>
+            <th>Title</th>
+            <th>Department</th>
+            <th>City</th>
+          </tr>
+          </table>
 
           <div className= "jobOpeningsListItem">
 
@@ -114,14 +114,12 @@ export default class JobOpeningsList extends React.Component {
               })
               .map((item) => {
               return (
-                <Link to={"/jobs/" + item.id}>
                   <JobItem
                   id={item.id}
                   title={item.title}
                   department={item.departmentName}
                   city={item.city}
                   />
-                </Link>
               )
             })}
           </div>
