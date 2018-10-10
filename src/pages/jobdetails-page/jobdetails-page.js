@@ -7,7 +7,9 @@ class JobDetailsPage extends React.Component {
   render() {
     return (
       <div className="jobDePageContainer">
+      <div className="jobDetails">
         <JobDetailsInfo id={this.props.match.params.id} />
+      </div>  
       </div>
     )
   }

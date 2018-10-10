@@ -33,9 +33,11 @@ export default class JobDetailsInfo extends React.Component {
   render() {
     if (Object.keys(this.state.allJobListings).length > 0 && Object.keys(this.state.allColleagues).length > 0) {
       return (
-        <div className="">
-          <h1>{this.state.allJobListings.title}</h1>
-          <p>{this.state.allJobListings.intro}</p>
+        <div className="jobDetailInfo">
+          <div className="topText">
+            <h1>{this.state.allJobListings.title}</h1>
+            <p>{this.state.allJobListings.intro}</p>
+          </div>
           <div className="top-image-box">
             <img src="https://www.comprend.com/files/pages/169/594257/dt/Home_02-ws-1920x800.jpg" alt="Comprend image" />
           </div>
@@ -47,13 +49,16 @@ export default class JobDetailsInfo extends React.Component {
               text="Share"
               link=""/>
           </div>
+          <h3>Your Workday</h3>
           <p>{this.state.allJobListings.workday}</p>
           <div className="two-column">
             <div className="body-image-box">
               <img src="https://www.comprend.com/files/pages/169/636748/dt/Home_01_ws_1920x800.jpg" alt="Comprend image" />
             </div>
-            <p className="column-text">{this.state.allJobListings.aboutYou}</p>
+
+            <p className="column-text" ><h3>Who are you?</h3>{this.state.allJobListings.aboutYou}</p>
           </div>
+          <h3>Is Comprend the company for you?</h3>
           <p>{this.state.allJobListings.match}</p>
           <div className="colleague-group">
             <Colleague source={this.state.allColleagues[0].pictureUrl}

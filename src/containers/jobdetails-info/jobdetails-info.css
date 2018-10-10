@@ -1,19 +1,30 @@
+.topText{
+  padding: 80px 0px 50px;
+}
+
 .top-image-box {
   width: 100%;
 }
 
 .body-image-box {
   overflow: hidden;
-  padding: 10px;
-  width: 50%;
+  margin-top: 20px;
+  width: 60%;
+
 }
 
 .button-group {
   text-align: center;
+  padding: 30px 0px 10px 0px;
 }
 
 img {
   width: 100%;
+  object-fit: contain;
+}
+
+h3{
+  margin-top: 0;
 }
 
 .two-column {
@@ -23,10 +34,12 @@ img {
 
 .column-text {
   width: 50%;
+  padding-left: 40px;
 }
 
 .colleague-group {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 100px 0px;
 }
