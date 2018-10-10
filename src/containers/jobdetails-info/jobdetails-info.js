@@ -51,6 +51,7 @@ export default class JobDetailsInfo extends React.Component {
           </div>
           <h3>Your Workday</h3>
           <p>{this.state.allJobListings.workday}</p>
+          <p className="job-quote"><i class="fas fa-quote-left"></i>{this.state.allJobListings.quote}<i class="fas fa-quote-right"></i></p>
           <div className="two-column">
             <div className="body-image-box">
               <img src="https://www.comprend.com/files/pages/169/636748/dt/Home_01_ws_1920x800.jpg" alt="Comprend image" />
