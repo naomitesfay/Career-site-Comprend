@@ -55,7 +55,7 @@ export default class JobOpeningsList extends React.Component {
     })
   }
 
-  {/* Maps over all jobs to create an array of cities, then reduces this array to just containing unique cities */}
+  // Maps over all jobs to create an array of cities, then reduces this array to just containing unique cities
   uniqueCities = () => Array.from(new Set(this.state.allJobListings.map((job) => {
       return job.city
   })))
