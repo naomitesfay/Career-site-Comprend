@@ -53,3 +53,14 @@ footer p {
   width: auto;
   margin: 0 10px;
 }
+
+@media (max-width: 600px) {
+  .footer-navbar {
+    flex-direction: column;
+  }
+
+  .footer-navbar ul {
+    flex-direction: column;
+    align-items: center;
+  }
+}
