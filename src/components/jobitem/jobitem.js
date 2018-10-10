@@ -7,10 +7,7 @@ export default class JobItem extends React.Component {
 
 
   render() {
-    // const departments = [
-    //   {department: "" }
-    // ]
-
+  
       return (
         <div className= "jobContainer">
           <Link to={`/jobs/${this.props.id}`}>
