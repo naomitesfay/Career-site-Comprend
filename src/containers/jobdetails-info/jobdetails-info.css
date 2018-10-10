@@ -16,6 +16,14 @@ img {
   width: 100%;
 }
 
+.job-quote {
+  font-size: 20px;
+}
+
+.job-quote i {
+  padding: 10px;
+}
+
 .two-column {
   display: flex;
   flex-direction: row;
