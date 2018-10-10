@@ -34,10 +34,12 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-
-
-
 }
+
+.intro-text {
+  padding: 0 40px;
+}
+
 .job-opening-container button {
   position:inherit;
   top: 50%;
@@ -51,9 +53,13 @@ align-items: center;
   text-align: center;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
   .intro-container {
   flex-direction: column;
   text-align: center;
+  }
+
+  .intro-text {
+    padding: 0;
   }
 }
