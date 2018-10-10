@@ -1,16 +1,52 @@
+body {
+margin: 0;
+
+}
+.career-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .hero-image {
 position: relative;
+
 
 }
 
 .hero-text {
 position: absolute;
-top: 40%;
+top: 20%;
 left: 10%;
 color: white;
+font-size: 200%;
 }
 
-.intro-text {
+.intro-container {
 display: flex;
 flex-direction: row;
+width: 100%;
+}
+
+
+.job-opening-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+
+}
+.job-opening-container button {
+  position:inherit;
+  top: 50%;
+  left: 50%;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
 }
