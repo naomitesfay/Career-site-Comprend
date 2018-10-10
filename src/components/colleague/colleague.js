@@ -6,7 +6,7 @@ export default class Colleague extends React.Component {
 
   render() {
       return (
-        <div>
+        <div className="colleague-block">
           <img className="colleague-image" src={this.props.source} alt="" />
           <p>{this.props.name}</p>
         </div>

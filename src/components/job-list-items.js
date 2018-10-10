@@ -18,18 +18,4 @@ export default class JobListItems extends React.Component {
     })
   }
 
-  // render() {
-  //   if (this.state.allJobListings.length > 0) {
-  //     return (
-  //       <div className= "jobContainer">
-  //       <p>Job title {this.state.allJobListings[0].title}</p>
-  //       <p>Department {this.state.allJobListings[0].department}</p>
-  //       <p>City {this.state.allJobListings[0].department}</p>
-  //       </div>
-  //     )
-  //   } else {
-  //     return <div>Loading loading loading forever...</div>
-  //   }
-  // }
-
 }
