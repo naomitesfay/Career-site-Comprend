@@ -38,15 +38,33 @@ align-items: center;
 
 
 }
-.job-opening-container button {
-  position:inherit;
-  top: 50%;
-  left: 50%;
-  background-color: black;
-  color: white;
-  font-size: 16px;
-  padding: 12px 24px;
-  cursor: pointer;
-  border-radius: 5px;
-  text-align: center;
+.button-on-image {
+  position:absolute;
 }
+
+.ghost {
+  display:inline-block;
+  position: relative;
+  top: 50%;
+  left:50%;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  font-family:sans-serif;
+  font-size: 2em;
+  letter-spacing: 0.1em;
+  color: black;
+  text-decoration:none;
+  text-transform:uppercase;
+  text-rendering:optimizeLegibility;
+  border:0.09em solid #fff;
+  padding:0.4em 0.6em;
+  -webkit-transition: color 300ms, background 500ms, border-color 700ms;
+  transition: color 300ms, background 500ms, border-color 700ms;
+}
+
+.ghost:hover {
+  background:#F4F6F9;
+  border-color:#F4F6F9;
+  color: black;
+ }
