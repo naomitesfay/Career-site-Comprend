@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="454px" viewBox="0 0 1440 454" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.1 (67048) - http://www.bohemiancoding.com/sketch -->
+    <title>Path 3space</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="32.7987688%" x2="50%" y2="6.91731715%" id="linearGradient-1">
+            <stop stop-color="#6270CB" stop-opacity="0.5" offset="0%"></stop>
+            <stop stop-color="#333D9C" stop-opacity="0.5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.500186012">
+        <g id="Page-2" transform="translate(0.000000, -140.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <path d="M0,152.445313 L0,594 C130.07865,522.444484 225.818964,475.018825 287.220943,451.723024 C435.3889,395.508367 630.964871,336 758.851316,323.511719 C963.738192,303.504243 1190.78775,324.074556 1440,385.222656 L1440,140 L0,140 L0,152.445313 Z" id="Path-3"></path>
+        </g>
+    </g>
+</svg>
