@@ -32,6 +32,19 @@ export default class JobDetailsInfo extends React.Component {
 
   render() {
     if (Object.keys(this.state.allJobListings).length > 0 && Object.keys(this.state.allColleagues).length > 0) {
+
+      let quote;
+      if (this.state.allJobListings.quote){
+        quote =
+        <p className="job-quote">
+          <i class="fas fa-quote-left"></i>
+          {this.state.allJobListings.quote}
+          <i class="fas fa-quote-right"></i>
+        </p>
+      } else {
+        quote = ""
+      }
+
       return (
         <div className="jobDetailInfo">
           <div className="topText">
@@ -51,7 +64,7 @@ export default class JobDetailsInfo extends React.Component {
           </div>
           <h3>Your Workday</h3>
           <p>{this.state.allJobListings.workday}</p>
-          <p className="job-quote"><i class="fas fa-quote-left"></i>{this.state.allJobListings.quote}<i class="fas fa-quote-right"></i></p>
+          {quote}
           <div className="two-column">
             <div className="body-image-box"></div>
             <p className="column-text" ><h3>Who are you?</h3>{this.state.allJobListings.aboutYou}</p>
