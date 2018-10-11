@@ -53,14 +53,14 @@ export default class JobDetailsInfo extends React.Component {
           <p>{this.state.allJobListings.workday}</p>
           <p className="job-quote"><i class="fas fa-quote-left"></i>{this.state.allJobListings.quote}<i class="fas fa-quote-right"></i></p>
           <div className="two-column">
-            <div className="body-image-box">
-              <img src="https://www.comprend.com/files/pages/169/636748/dt/Home_01_ws_1920x800.jpg" alt="Comprend image" />
-            </div>
-
+            <div className="body-image-box"></div>
             <p className="column-text" ><h3>Who are you?</h3>{this.state.allJobListings.aboutYou}</p>
           </div>
+          <br />
           <h3>Is Comprend the company for you?</h3>
           <p>{this.state.allJobListings.match}</p>
+          <br /><br />
+          <h3>Some of your future colleagues</h3>
           <div className="colleague-group">
             <Colleague source={this.state.allColleagues[0].pictureUrl}
               name={this.state.allColleagues[0].name} />
@@ -73,7 +73,7 @@ export default class JobDetailsInfo extends React.Component {
         )
       } else {
       return (
-      <div>Loading loading loading forever...</div>
+      <div>Please wait while we find available jobs.</div>
       )
     }
   }

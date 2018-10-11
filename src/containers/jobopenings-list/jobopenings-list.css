@@ -16,3 +16,10 @@ a:-webkit-any-link{
   text-decoration: none;
   color: #2F323B;
 }
+
+select {
+  font-size: 18px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  background-color: #e3e3e3;
+}
