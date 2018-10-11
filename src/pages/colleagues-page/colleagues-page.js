@@ -5,7 +5,8 @@ import "./colleagues-page.css"
 class ColleaguesPage extends React.Component {
 
   state = {
-    allColleagues: []
+    allColleagues: [],
+    source: "https://res.cloudinary.com/teamtailor/image/upload/c_fill,dpr_2.0,f_auto,g_faces:center,h_160,q_80,w_160/v1456739836/ydy7jbqal3izyiiy4pir.jpg"
   }
 
   reserveFaceUrls = ["./images/face-1.png",
@@ -26,6 +27,18 @@ class ColleaguesPage extends React.Component {
     })
     }
 
+    handleHover = () => {
+      this.setState({
+        source: "/images/face-1.png"
+      })
+    }
+
+    handleHover = () => {
+      this.setState({
+        source: "https://res.cloudinary.com/teamtailor/image/upload/c_fill,dpr_2.0,f_auto,g_faces:center,h_160,q_80,w_160/v1456739836/ydy7jbqal3izyiiy4pir.jpg"
+      })
+    }
+
   render() {
     if (this.state.allColleagues.length > 0) {
       {this.state.allColleagues.map((person) => {
@@ -36,13 +49,21 @@ class ColleaguesPage extends React.Component {
       return (
        <div className="background">
           <div className="colleagues-container">
+          {/*
           {this.state.allColleagues.map((person) => {
             if (person.visible) {
               return <Colleague source={person.pictureUrl}
                   name={person.name}
-                  title={person.title} />
+                  title={person.title}
+                  onMouseEnter={this.handleHover} />
               }
           })}
+          */}
+          <button type="button" onMouseEnter={this.handleHover}></button>
+          <Colleague source={this.state.source}
+                   name={this.state.allColleagues[0].name}
+                   title={this.state.allColleagues[0].title}
+                   />
           </div>
        </div>
       )
