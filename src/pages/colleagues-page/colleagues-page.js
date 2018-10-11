@@ -22,18 +22,18 @@ class ColleaguesPage extends React.Component {
       return response.json()
     }).then((json) => {
       this.setState({
-        allColleagues: json
+        allColleagues: json,
       })
     })
     }
 
-    handleHover = () => {
+    handleHoverOn = () => {
       this.setState({
         source: "/images/face-1.png"
       })
     }
 
-    handleHover = () => {
+    handleHoverOff = () => {
       this.setState({
         source: "https://res.cloudinary.com/teamtailor/image/upload/c_fill,dpr_2.0,f_auto,g_faces:center,h_160,q_80,w_160/v1456739836/ydy7jbqal3izyiiy4pir.jpg"
       })
@@ -59,10 +59,11 @@ class ColleaguesPage extends React.Component {
               }
           })}
           */}
-          <button type="button" onMouseEnter={this.handleHover}></button>
           <Colleague source={this.state.source}
                    name={this.state.allColleagues[0].name}
                    title={this.state.allColleagues[0].title}
+                   onMouseEnter={this.handleHoverOn}
+                   onMouseLeave={this.handleHoverOff}
                    />
           </div>
        </div>
