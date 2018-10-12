@@ -8,10 +8,10 @@ class CareerPage extends React.Component {
     return (
 
   <div className="careerPageContainer">
-    <div className="HeroImage"><img src="/images/heroImage.svg" /></div>
+    <div className="heroImage"><img src="/images/heroImage.svg" /></div>
       <div className="hero-text">
-      <img src="/images/joinUs!.svg" />
-      <Link to="/jobs">
+        <img src="/images/joinUs!.svg" />
+        <Link to="/jobs">
         <p>Your journey starts here!</p>
       </Link>
     </div>
@@ -32,13 +32,6 @@ class CareerPage extends React.Component {
         </div>
       </div>
   </div>
-
-
-
-
-
-
-
     )
   }
 
