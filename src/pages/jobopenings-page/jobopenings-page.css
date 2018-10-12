@@ -24,4 +24,9 @@
     width: 75%;
     padding: 10% 15% 10% 10%;
   }
+
+  .starWarsJobs img {
+    width: 100%;
+  }
+
 }
