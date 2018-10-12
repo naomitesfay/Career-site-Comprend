@@ -4,12 +4,12 @@ import "./colleague.css"
 export default class Colleague extends React.Component {
 
   reserveFaceUrls = [
-                    "./images/face-1.png",
-                     "./images/face-2.png",
-                     "./images/face-3.png",
-                     "./images/face-4.png",
-                     "./images/face-5.png",
-                     "./images/face-6.png"
+                    "/images/face-1.png",
+                     "/images/face-2.png",
+                     "/images/face-3.png",
+                     "/images/face-4.png",
+                     "/images/face-5.png",
+                     "/images/face-6.png"
                    ]
 
   render() {
