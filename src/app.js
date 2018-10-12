@@ -5,8 +5,9 @@ import ReactDOM from "react-dom"
 import Header from "./components/header/header"
 import JobOpeningsPage from "./pages/jobopenings-page/jobopenings-page"
 import JobDetailsPage from "./pages/jobdetails-page/jobdetails-page"
-import Footer from "./components/footer/footer"
 import CareerPage from "./pages/career-page/career-page"
+import ColleaguesPage from "./pages/colleagues-page/colleagues-page"
+import Footer from "./components/footer/footer"
 
 class App extends React.Component {
   render() {
@@ -17,6 +18,7 @@ class App extends React.Component {
          <Route path="/" exact component={CareerPage} />
          <Route path="/jobs" exact component={JobOpeningsPage} />
          <Route path="/jobs/:id" component={JobDetailsPage} />
+         <Route path="/colleagues" component={ColleaguesPage} />
          <Footer />
         </div>
       </Router>
