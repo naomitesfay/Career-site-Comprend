@@ -23,6 +23,10 @@ header {
   padding: 20px;
 }
 
+.header-hamburger {
+  display: none;
+}
+
 .logo{
   padding-left: 5%;
 }
@@ -32,13 +36,14 @@ header {
   width: auto;
 }
 
-@media (max-width: 600px) {
-  .header-navbar ul {
-    flex-flow: column nowrap;
+@media (max-width: 700px) {
+  .header-navbar {
+    display: none;
   }
-
-  .header-navbar li {
-    padding: 0 20px 0 0;
+  .header-hamburger {
+    display: block;
+    color: #F9F5F2;
+    padding-right: 20px;
   }
 
 }

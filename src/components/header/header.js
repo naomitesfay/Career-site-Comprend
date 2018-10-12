@@ -23,6 +23,9 @@ export default class Header extends React.Component {
               <li>Contact</li>
             </ul>
           </div>
+          <div className="header-hamburger">
+            <i class="fas fa-bars fa-2x"></i>
+          </div>
         </header>
       )
     }

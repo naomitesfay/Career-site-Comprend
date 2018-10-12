@@ -63,11 +63,10 @@ export default class JobOpeningsList extends React.Component {
   render() {
 
     if (this.state.allDepartments.length > 0) {
-
       return (
         <div className="jobOpeningsList">
-
           <div className="filter-buttons">
+            <p>Filter by department and city</p>
             <select value={this.state.valueDepartment} onChange={this.handleDepartmentChange} >
               <option value="All">All</option>
               {this.state.allDepartments.map((department) => {
@@ -86,14 +85,6 @@ export default class JobOpeningsList extends React.Component {
             }
             </select>
           </div>
-
-          <table>
-          <tr>
-            <th>Title</th>
-            <th>Department</th>
-            <th>City</th>
-          </tr>
-          </table>
 
           <div className= "jobOpeningsListItem">
 
