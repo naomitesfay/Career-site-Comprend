@@ -1,6 +1,6 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import "./header.css"
-// import JobListItems from "./job-list-items"
 
 export default class Header extends React.Component {
 
@@ -10,7 +10,9 @@ export default class Header extends React.Component {
       return (
         <header>
           <div className="logo">
-            <img src="/images/logo.png" />
+            <Link to="/">
+              <img src="/images/logo.png" />
+            </Link>
           </div>
           <div className="header-navbar">
             <ul>

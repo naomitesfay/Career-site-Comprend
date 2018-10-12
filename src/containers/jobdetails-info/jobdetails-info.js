@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom"
 import Button from "../../components/button/button"
 import Colleague from "../../components/colleague/colleague"
 import Header from "../../components/header/header"
@@ -73,14 +74,22 @@ export default class JobDetailsInfo extends React.Component {
           <h3>Is Comprend the company for you?</h3>
           <p>{this.state.allJobListings.match}</p>
           <br /><br />
-          <h3>Some of your future colleagues</h3>
+          <Link to="/colleagues">
+            <h3>Meet some of the people at Comprend</h3>
+          </Link>
           <div className="colleague-group">
-            <Colleague source={this.state.allColleagues[0].pictureUrl}
-              name={this.state.allColleagues[0].name} />
-            <Colleague source={this.state.allColleagues[1].pictureUrl}
-              name={this.state.allColleagues[1].name} />
-            <Colleague source={this.state.allColleagues[2].pictureUrl}
-              name={this.state.allColleagues[2].name} />
+            <Link to="/colleagues">
+              <Colleague source={this.state.allColleagues[0].pictureUrl}
+                name={this.state.allColleagues[0].name} />
+            </Link>
+            <Link to="/colleagues">
+              <Colleague source={this.state.allColleagues[1].pictureUrl}
+                name={this.state.allColleagues[1].name} />
+            </Link>
+            <Link to="/colleagues">
+              <Colleague source={this.state.allColleagues[2].pictureUrl}
+                name={this.state.allColleagues[2].name} />
+            </Link>
           </div>
         </div>
         )
