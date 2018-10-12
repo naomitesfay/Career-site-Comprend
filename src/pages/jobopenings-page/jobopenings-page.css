@@ -1,7 +1,7 @@
 .jobOpPageContainer{
   width: 100%;
   height: 100%;
-  background-image: url("/images/sanddune.svg"), linear-gradient(to bottom left, #FAD961, #F76B1C);
+  background-image: url("/images/sanddune.svg"), linear-gradient(to bottom left, #FAD96188, #F76B1C88);
   background-repeat: no-repeat;
   z-index: 0;
   background-size: cover;
