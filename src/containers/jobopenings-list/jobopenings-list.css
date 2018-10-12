@@ -25,3 +25,9 @@ select {
   border: 2px solid #979797;
   background-color: #e3e3e3;
 }
+
+.filter-buttons select{
+  background-color: #979797;
+  color: #F9F5F2;
+  border: none;
+}

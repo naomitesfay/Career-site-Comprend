@@ -5,13 +5,14 @@ button {
   cursor: pointer;
   margin: 20px;
   width: 200px;
-  background-color: #efefef;
-  color: black;
-  border: 1px solid black;
-  border-radius: 15px;
+  background-color: #979797;
+  color: #F9F5F2;
+  border: none;
+  /* border: 1px solid black; */
+  /* border-radius: 15px; */
 }
 
 button:hover {
-  background-color: black;
-  color: #efefef;
+  background-color: #2F323B;
+  color: #F9F5F2;
 }
