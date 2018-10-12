@@ -33,10 +33,10 @@ class CareerPage extends React.Component {
 
 
         <div className="job-opening-container">
-          <img src="images/last-jedi.jpg" />
-          <div className="button-on-image">
-          <button>Job openings</button>
-          </div>
+          <img src="images/galaxy.jpg" />
+        <div className="button-on-image">
+            <a class="ghost" href="">Job openings</a>
+        </div>
         </div>
 
       </div>
