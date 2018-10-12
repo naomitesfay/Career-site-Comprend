@@ -2,7 +2,7 @@ body {
 margin: 0;
 
 }
-.career-container {
+.careerPageContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -21,8 +21,8 @@ position: relative;
 
 .hero-text {
 position: absolute;
-top: 20%;
-left: 10%;
+top: 40%;
+left: 15%;
 color: white;
 font-size: 200%;
 }

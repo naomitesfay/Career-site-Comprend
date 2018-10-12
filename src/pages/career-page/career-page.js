@@ -7,10 +7,10 @@ class CareerPage extends React.Component {
     return (
 
 <div className="careerPageContainer">
-      
+  <div className="HeroImage"><img src="/images/heroImage.svg" /></div>
           <div className="hero-text">
-          <h1>Join us</h1>
-          <p>May the force be with you</p>
+  <img src="/images/joinUs!.svg" />
+          <p>May the Vas be with you</p>
           </div>
 
 
