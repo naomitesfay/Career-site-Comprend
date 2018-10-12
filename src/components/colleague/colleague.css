@@ -1,8 +1,55 @@
 .colleague-block {
+  height: 200px;
+  width: 200px;
+  padding: 20px 20px;
   text-align: center;
 }
 
-.colleague-image {
+.image-block {
+  position: relative;
+  height: 150px;
+  margin: 0 auto;
   width: 150px;
+}
+
+.image-block:hover > .colleague-image {
+  display: none;
+}
+
+.colleague-image {
   border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.colleague-image-sw {
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+}
+
+.colleague-name {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  align-self: flex-end;
+}
+
+.colleague-title {
+  width: 100%;
+  text-align: center;
+  font-style: italic;
+  font-size: 14px;
+  align-self:
+
 }
