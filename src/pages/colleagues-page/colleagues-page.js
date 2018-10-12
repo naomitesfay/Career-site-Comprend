@@ -22,6 +22,7 @@ class ColleaguesPage extends React.Component {
     if (this.state.allColleagues.length > 0) {
       return (
        <div className="background">
+        <h1>Meet Our People</h1>
           <div className="colleagues-container">
           {this.state.allColleagues.map((person) => {
              if (person.visible) {
