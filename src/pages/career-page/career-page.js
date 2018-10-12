@@ -6,14 +6,13 @@ class CareerPage extends React.Component {
   render() {
     return (
 
-<div className="career-container">
-      <div className="hero-image">
-        <img src="images/yoda.jpg" />
+<div className="careerPageContainer">
+      
           <div className="hero-text">
           <h1>Join us</h1>
           <p>May the force be with you</p>
           </div>
-      </div>
+
 
       <div className="intro-container">
           <div className="intro-text">
